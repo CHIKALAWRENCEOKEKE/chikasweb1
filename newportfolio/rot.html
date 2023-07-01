@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fade-in from Right on Scroll</title>
+    <style>
+      /* Set the initial state of the text */
+      h3.fadein-right {
+        opacity: 0; /* Start with 0 opacity (completely transparent) */
+        transform: translateX(50px); /* Move the text 50px to the right */
+        transition: opacity 0.5s, transform 0.5s; /* Add a smooth transition */
+      }
+
+      /* Add a class for when the text should appear */
+      h3.fadein {
+        opacity: 1; /* Fully visible (opaque) */
+        transform: translateX(
+          0
+        ); /* Move the text back to its original position */
+      }
+    </style>
+  </head>
+  <body>
+    <h3 class="fadein-right">Have any inquiries or Want to work together?</h3>
+
+    <script>
+      // Function to check if an element is in the viewport
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+          rect.right >= 0 &&
+          rect.left <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      // Function to handle the scroll event
+      function handleScroll() {
+        const fadeinElement = document.querySelector(".fadein-right");
+        if (isInViewport(fadeinElement)) {
+          fadeinElement.classList.add("fadein");
+          // Remove the scroll event listener once the element is faded in
+          document.removeEventListener("scroll", handleScroll);
+        }
+      }
+
+      // Listen for the scroll event and handle it
+      document.addEventListener("scroll", handleScroll);
+    </script>
+  </body>
+</html>

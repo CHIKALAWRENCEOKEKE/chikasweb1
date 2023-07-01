@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="apple-touch-icon" sizes="180x180" href="images/faveicon/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/faveicon/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/faveicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/faveicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<title>Chikasweb</title>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@1&family=Nunito:wght@700&family=Playfair+Display&family=Roboto&family=Rowdies:wght@700&family=Work+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Chau+Philomene+One:ital@1&family=Nunito:wght@700&family=Playfair+Display&family=Roboto&family=Rowdies:wght@700&family=Work+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Chau+Philomene+One:ital@1&family=Nunito:wght@700&family=Permanent+Marker&family=Playfair+Display&family=Roboto&family=Rowdies:wght@700&family=Work+Sans:wght@300&family=Yanone+Kaffeesatz&display=swap"
+      rel="stylesheet"
+    />
+    <!-- external styles -->
+    <!-- Bootstrap CSS -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css">
+ <!-- AOs -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- ends -->
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/mobile.css" />
+    <link rel="stylesheet" href="/ipad.css">
+    <!-- external js -->
+    
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <!-- ends -->
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <ul id="menu-bar">
+          <li>
+            <h1 id="logo" data-aos="fade-right">
+              <span id="logoSpan" style="color: #f0e9ec">Chika's</span>Web
+            </h1>
+            <div class="line" data-aos="fade-left"></div>
+          </li>
+          <li>
+            <ul id="sub-menu-bar">
+             
+              <li data-aos="fade-right">
+                <a href="#projects">  
+                  <h3>Projects</h3>
+                </a>
+                
+              </li>
+              <li data-aos="fade-up">
+                <a href="#social">
+                  <h3>Socials</h3>
+                </a>
+                </li>
+              <li data-aos="fade-down">
+                <a href="#About">
+                  <h3>About</h3> 
+                </a>
+               
+              </li>
+
+              <li data-aos="fade-left">
+                <a href="#contact">
+
+                  <h3>Contact</h3>
+                </a>
+                
+              </li>
+              <li data-aos="fade-up">
+                <a href="#blog">
+                   <h3>Blog</h3>
+                </a>
+               
+                
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </header>
+      <aside>
+        <ul>
+          <li>
+            <h1 id="logo2"><span style="color: #faf6f8" >Chika's</span>Web</h1>
+          </li>
+
+          
+          <li>
+            <ul id="oandc">
+              <li>
+                <svg  class="animate__animated animate__fadeInRight"
+                  id="openIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
+                  />
+                </svg>
+              </li>
+              <li>
+                <svg  class="animate__animated animate__fadeInRight"
+                  id="closeIcon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div id="asideEle"  class="animate__animated animate__fadeInLeft">
+          <a href="#projects">  <h3>Project</h3> </a>
+           <a href="#social"><h3>Socials</h3></a>
+           <a href="#About"><h3>About</h3></a>
+          <a href="#blog"> <h3>Blog</h3></a>
+          <a href="#contact"> <h3>Contact</h3></a>
+        </div>
+      </aside>
+      <section id="sec-1">
+        <ul id="hero">
+          <li>
+            <div id="name">
+<h1 >Hi, I'm</h1>  <h1 style="color: #0f20e7;" >Chika Lawrence Okeke</h1>
+            </div>
+            
+            <h3>
+             A dedicated Freelance Front-end developer proficient in building captivating user interfaces, empowering businesses and individuals to foster lasting connections and drive impactful engagement.
+            </h3>
+            
+              </li>
+            </ul>
+          </li>
+         
+        </ul>
+      </section>
+
+      <ul class="box">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <section id="projects"  >
+      <div class="con-projects" data-aos="fade-right">
+        <h1>Projects</h1>
+        <div class="line"></div>
+      </div>
+
+      <ul id="con-works">
+        <li>
+          <div id="con-lang1" data-aos="fade-up">
+            <h2 id="site-btn">Site</h2>
+            <div class=" line"></div>
+          </div>
+        </li>
+        <li>
+          <div id="con-lang2" data-aos="fade-down">
+            <h2 id="game-btn">Game</h2>
+            <div class="empt"></div>
+          </div>
+        </li>
+        <li>
+          <div id="con-lang3" data-aos="fade-left">
+            <h2 id="app-btn">App</h2>
+            <div class="empt"></div>
+          </div>
+        </li>
+      </ul>
+
+       <div id="con-site" data-aos="fade-right">
+      <div id="siteele" class="siteelement animate__animated animate__fadeInDown">
+  <div id="siteeletextcon" class="animate__animated animate__fadeInUp" >
+    <h2>lorem</h2>
+    <h3>Html/css</h3>
+    <div class="link"><a href="">Learn More</a></div>
+  </div>
+</div>
+
+
+      <div id="siteele1" class="siteelement1 animate__animated animate__fadeInUp">
+        <div id="siteeletextcon1" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+      <div id="siteele2"  class="siteelement2 animate__animated animate__fadeInRight">
+       <div id="siteeletextcon2" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+      
+      <div id="siteele3" class="siteelement3 animate__animated animate__fadeInUp">
+        <div id="siteeletextcon3" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+      <div id="siteele4" class="siteelement4 animate__animated animate__fadeInUp">
+        <div id="siteeletextcon4" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+      <div id="siteele5" class="siteelement5 animate__animated animate__fadeInUp">
+        <div id="siteeletextcon5" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+      <div id="siteele6" class="siteelement6 animate__animated animate__fadeInUp">
+        <div id="siteeletextcon6" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+      <div id="siteele7" class="siteelement7 animate__animated animate__fadeInUp">
+        <div id="siteeletextcon7" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+      <div id="siteele8" class="siteelement8 animate__animated animate__fadeInUp" >
+        <div id="siteeletextcon8" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+    </div>
+
+      <!-- game-itmems -->
+    <div id="con-game" >
+
+
+        <div id="gameele"  class="gameelement animate__animated animate__fadeInLeft">
+       <div id="gameeletextcon" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+    <div id="gameele1"  class="gameelement1 animate__animated animate__fadeInUp">
+       <div id="gameeletextcon1" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+
+      </div>
+    <!-- for app -->
+
+    <div id="con-app">
+
+       <div id="appele"  class="appelement animate__animated animate__fadeInDown">
+       <div id="appeletextcon" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+      <div id="appele1"  class="appelement1 animate__animated animate__fadeInRight ">
+       <div id="appeletextcon1" class="animate__animated animate__fadeInUp">
+          <h2>lorem</h2>
+          <h3>Html/css</h3>
+          <div class="link"><a href="">Learn More</a></div>
+        </div>
+      </div>
+      </div>
+    
+    </section>
+  <section id="About">
+<div class="con-projects" data-aos="fade-right">
+  <h1>
+    About
+  </h1>
+  <div class="line">
+
+  </div>
+</div>
+<ul id="about-icons" data-aos="fade-right">
+  <li data-aos="fade-up">
+    <div class="abouti">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.412 15.655L9.75 21.75l3.745-4.012M9.257 13.5H3.75l2.659-2.849m2.048-2.194L14.25 2.25 12 10.5h8.25l-4.707 5.043M8.457 8.457L3 3m5.457 5.457l7.086 7.086m0 0L21 21" />
+</svg>
+
+    </div>
+
+<h2>
+  Swift
+</h2>
+<h3>
+
+Swift loading speeds and seamless interaction, my primary focus.
+</h3>
+  </li>
+  <li data-aos="fade-down">
+    <div class="abouti">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+</svg>
+    </div>
+
+<h2>
+  Responsive
+</h2>
+<h3>
+  My designs will adapt to any screen size, whether large or compact.
+</h3>
+  </li>
+  <li data-aos="fade-up">
+    <div class="abouti">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z" />
+</svg>
+    </div>
+    
+
+<h2>
+  User-friendly
+</h2>
+<h3>
+  Highly inclined towards streamlined and user-friendly UX/UI.
+</h3>
+  </li>
+  <li data-aos="fade-down">
+    <div class="abouti">
+ <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+  <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+</svg>
+    </div>
+   
+<h2>
+  lively
+</h2>
+<h3>
+  Websites can be anything but static; I thoroughly enjoy infusing life into webpages.
+</h3>
+  </li>
+</ul>
+
+<div >
+<div class="more-about-text" data-aos="fade-right">
+  <h1>
+Who I am
+</h1>
+<div class="line"></div>
+</div>
+
+<div id="more-about">
+
+
+<div data-aos="fade-right">
+<iframe src="https://www.youtube-nocookie.com/embed/kfhQuXyrYgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+  <div>
+
+<p data-aos="fade-left">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam corrupti quibusdam facere itaque dignissimos, debitis alias quas aperiam dolor, eum amet, odio minima quos recusandae exercitationem quis explicabo perspiciatis at.
+</p>
+<div class="more-about-line-con" data-aos="fade-right">
+  <h2>
+  My Services
+</h2>
+<div class="line"></div>
+</div>
+<ul id="service" data-aos="fade-right">
+  <li data-aos="fade-down">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+  <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+</svg>
+<h3>
+  Web development
+</h3>
+
+<p>
+  I develop lively and responsive,websites, Games and Apps.
+</p>
+  </li>
+
+  <li data-aos="fade-up">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-hearts" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z"/>
+</svg>
+<h3>
+  Social Media Manager
+</h3>
+<p>
+  I help organizations and individuals great engaging and lasting relationships with their audience
+</p>
+  </li>
+
+</ul>
+
+</div>
+
+</div>
+  </section>
+<section id="blog">
+<div id="blog-text-con" data-aos="fade-right">
+  <h1>
+Blog
+</h1>
+<div class="line"></div>
+</div>
+
+<ul data-aos="fade-right">
+  <li data-aos="fade-up">
+<div class="blog-img">
+
+</div>
+<div class="blogspace"></div>
+<a href="https://vocal.media/education/exploring-the-red-planet-the-future-of-mars-exploration" target="_blank"> Exploring the Red Planet: The Future of Mars Exploration</a>
+<div class="line">
+
+</div> 
+<p>
+  Unveiling the Mysteries of the Red Planet and the Path to Human Colonization
+</p>
+</li>
+   <li data-aos="fade-down">
+<div id="blogimg1" class="blog-img">
+
+</div>
+<div class="blogspace"></div>
+<a href="https://vocal.media/education/exploring-the-red-planet-the-future-of-mars-exploration" target="_blank"> The Phenomenon of "No Brain" Profound Implications</a>
+<div class="line">
+
+</div> 
+<p>
+  Exploring the Enigma of "No Brain": Unraveling Consciousness, Identity
+</p>
+</li>
+  <li data-aos="fade-up">
+<div class="blog-img"  id="blogimg2">
+
+</div>
+<div class="blogspace"></div>
+<a href="https://vocal.media/education/exploring-the-red-planet-the-future-of-mars-exploration" target="_blank"> Unveiling the Mysteries of Bullet Ant Venom: Fascinating </a>
+<div class="line">
+
+</div> 
+<p>
+ Decoding the Potent Sting: Exploring the Fascinating World of Bullet Ant Venom
+</p>
+</li>
+  <li data-aos="fade-down">
+<div class="blog-img"  id="blogimg3">
+
+</div>
+<div class="blogspace"></div>
+<a href="https://vocal.media/education/exploring-the-red-planet-the-future-of-mars-exploration" target="_blank">Ancient Egyptian Mummification and Unearthing 
+</a>
+<div class="line">
+
+</div> 
+<p>
+  Ancient Egyptian Mummification and Unearthing Hidden Secrets of the 
+</p>
+</li>
+</ul>
+</section>
+<section id="contact" >
+
+<div class="parent-shape">
+  <div class="v-shape-top"></div>
+
+</div>
+<div id="contact-text-con" data-aos="fade-right">
+  <h1>
+Contact
+</h1>
+<div class="line"></div>
+</div>
+<h3 data-aos="fade-left">
+  Have any inquiries or Want to work together?
+</h3>
+ <div class="mb-3 form" data-aos="fade-right">
+      <label for="exampleFormControlInput1" class="form-label">Your Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3 form" data-aos="fade-right" >
+      <label for="exampleFormControlTextarea1" class="form-label">Enter your message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    
+    <a href="mailto:Donslimlaw11@gmail.com"> Send </a>
+    </div>
+    
+</section>
+<section id="social">
+  <ul data-aos="fade-right">
+    <li id="flinkedin">
+      <a href="https://www.linkedin.com/in/chika-okeke-12b58316b/" target="_blank">
+        <svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+</svg>
+      </a>
+      
+    </li>
+    <li id="ftwitter">
+      <a href="https://twitter.com/Frames4them?s=20" target="_blank">
+         <svg id="twitter" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+      </a>
+     
+    </li>
+    <li id="finsta">
+      <a href="https://www.instagram.com/ch_ika3964/" target="_blank">  
+        <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg>
+      </a>
+      
+    </li>
+    <li id="fmail">
+      <a  href="mailto:Donslimlaw11@gmail.com">
+          <svg id="email" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+  <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+  <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+</svg>
+      </a>
+    
+    </li>
+  </ul>
+  <h1 >Chikasweb <span class="year">©2023</span></h1>
+</section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js" defer></script>
+  </body>
+</html>
